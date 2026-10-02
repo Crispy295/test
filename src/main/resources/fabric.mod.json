@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "watergun",
+  "version": "${version}",
+  "name": "Water Gun",
+  "description": "Adds a water gun that shoots water.",
+  "authors": ["You"],
+  "license": "MIT",
+  "icon": "assets/watergun/textures/item/water_gun.png",
+  "environment": "*",
+  "entrypoints": { "main": ["com.example.watergun.WaterGunMod"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

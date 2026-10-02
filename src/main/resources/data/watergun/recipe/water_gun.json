@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": ["II ", "IB ", "  S"],
+  "key": {
+    "I": { "item": "minecraft:iron_ingot" },
+    "B": { "item": "minecraft:water_bucket" },
+    "S": { "item": "minecraft:stick" }
+  },
+  "result": { "id": "watergun:water_gun" }
+}
